@@ -1,0 +1,150 @@
+.why-use-box {
+    float: left;
+    width: 32%;
+    margin: 15px 15px 0 0;
+    background-color: #fff;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    padding: 20px 25px;
+    height: 630px;
+}
+
+
+.ion-android-menu {
+    color: #ae8eb0;
+}
+
+
+.why-use-box .box_inner {
+    box-shadow: none;
+}
+
+.the-legacy {
+    display: flex;
+}
+
+.section_title {
+    color: #f1752b;
+    margin: 30px 0 80px 0;
+}
+
+section_margin {
+    margin: 30px 0 80px 0;
+}
+
+.bus {
+    display: flex;
+}
+
+.bus ul {
+    margin: 0 35px 0 0;
+}
+
+
+.bus ul li {
+    position: relative;
+    padding: 0 0 0 30px;
+}
+
+.bus ul li::before {
+    background-image: url('../icon/checkedbox.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 0;
+    top: 5px;
+}
+
+.excahnage_icon {
+    width: 30%;
+    margin: 0 auto 15px;
+}
+
+
+.key-attributes-page p {
+    margin: 20px 0 0 0;
+}
+
+.key-attributes-page .bus {
+    margin: 40px 0 0 0;
+}
+
+
+.dcpg .bus ul p {
+    margin: 10px 0 15px 30px;
+}
+
+.dcpg-p p {
+    margin: 30px 0 0 0;
+}
+
+.left-box .bus ul li {
+    text-align: left;
+    margin: 0 0 10px 0;
+}
+
+#video .modal-dialog {
+    max-width: 900px;
+}
+
+#video .modal-content {
+    background: none;
+    border: none;
+}
+
+#video .modal-content .modal-header {
+    border: none;
+}
+
+#video .modal-content .modal-header .close {
+    opacity: 1;
+}
+
+#video .modal-content .modal-header .close span {
+    color: #fff;
+    opacity: 1 !important;
+}
+
+@media (max-width:1024px) {
+    .why-use-box {
+        float: left;
+        width: 48%;
+        height: 540px;
+    }
+}
+
+@media (max-width:768px) {
+    .why-use-box.animation.animated.fadeInUp {
+        width: 100%;
+    }
+
+    .the-legacy {
+        display: block;
+    }
+
+    .why-use-box {
+        width: 100%;
+        height: auto;
+    }
+
+    .excahnage_icon {
+        width: 100%;
+        margin: 0 auto 15px;
+        text-align: center;
+    }
+
+    .excahnage_icon img {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    .bus {
+        display: unset;
+    }
+
+    .collapse.show {
+        display: block;
+    }
+
+}
